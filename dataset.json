@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Extract all S3 bucket names from an AWS CloudFormation template JSON file",
+    "format": "regex",
+    "solution_criteria": "Regular expression that matches S3 bucket name patterns in AWS resource definitions"
+  },
+  {
+    "task": "Parse an AWS IAM policy JSON and extract all allowed actions",
+    "format": "python",
+    "solution_criteria": "Python function that returns a list of unique actions from the Statement array"
+  },
+  {
+    "task": "Create a valid AWS Lambda environment variables JSON configuration object with database credentials",
+    "format": "json",
+    "solution_criteria": "JSON object with proper key-value pairs for DB_HOST, DB_USER, DB_PASSWORD, and DB_NAME"
+  }
+]
